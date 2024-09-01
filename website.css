@@ -1,0 +1,302 @@
+body{
+    background-color: black;
+}
+@media  screen and (max-width:800px) {
+    .container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media  screen and (max-width: 800px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 29px;
+    width: 130px;
+}
+.logo{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1637759004/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg");
+    background-size: cover;
+    height: 29px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.add-icon{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    height: 41.1px;
+    width: 424px;
+    border-top-left-radius: 4px;
+}
+.search-select{
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+}
+.search-input{
+    width: 500px;
+}
+.search-icon{
+    color: black;
+    background-color:white ;
+    align-items: center;
+    padding: 7px;
+    width: 15px;
+    border-radius: 4px;
+}
+.nav-loc{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-pen{
+    font-size: 10px;
+    padding: 20px;
+}
+.nav-user{
+    display: flex;
+}
+.nav-cart{
+    display: flex;
+}
+.parallax,.parallax1{
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: auto;
+}
+.parallax{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724936305/Croma%20Assets/CMS/Homepage%20Banners/HP%20Rotating/2024/Aug/30082024/Desktop/HP_Rotating_TV_30Aug2024_r4poss.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.container{
+    display: flex;
+    display:grid;
+    gap: 20px;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    height: 200px;
+    width: 500px;
+    justify-content: space-evenly;
+}
+#mobile{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746332/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Mobile_sdtrdf.png?tr=w-720");
+    height: 150px;
+    width: 130px;
+    background-size: cover;
+}
+#buds{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746312/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Head_set_xjj934.png?tr=w-720");
+    height: 150px;
+    width: 120px;
+    background-size: cover;
+}
+#tv{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746346/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/TV_vdemgc.png?tr=w-720");
+    height: 150px;
+    width: 130px;
+    background-size: cover;
+}
+#sound{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746311/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Home_theatres_kpwvft.png?tr=w-720");
+    height: 150px;
+    width: 120px;
+    background-size: cover;
+}
+#ac{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746308/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Air_Conditioner_a4hg1z.png?tr=w-720");
+    height: 150px;
+    width: 130px;
+    background-size: cover;
+}
+#micro{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718616447/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/June/17th/Desktop/Microwaves_otd6qq.png?tr=w-720");
+    height: 150px;
+    width: 125px;
+    background-size: cover;
+}
+#fans{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746309/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Fans_ecnoxj.png?tr=w-720");
+    height: 150px;
+    width: 125px;
+    background-size: cover;
+}
+#kitchen{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746312/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Kitchen_Appliances_yhzevo.png?tr=w-720");
+    height: 150px;
+    width: 130px;
+    background-size: cover;
+}
+#watch{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718616448/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/June/17th/Desktop/Wearables_iunu7h.png?tr=w-720");
+    height: 150px;
+    width: 125px;
+    background-size: cover;
+}
+#laptops{
+    background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717746331/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Category%20Ic0on/Homepage%20Cat%20Icons-Desktop/Laptops_pzewpv.png?tr=w-720");
+    height: 150px;
+    width: 130px;
+    background-size: cover;
+}
+.bank{
+    display: grid;
+    display: flex;
+    gap: 35px;
+    grid-template-columns: 5fr 5fr;
+    height: 150px;
+    width: 90%;
+    padding-left: 85px;
+}
+.box{
+    border: 2px solid white;
+    height: 100px;
+    width: 50%;
+    border-radius: 10px;
+}
+.box1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724822947/Croma%20Assets/CMS/LP%20Page%20Banners/2024/More%20For%20Your%20Money/August/29%20to%2031st%20August/ICICI/PNGS/HP_2Split_MFYMP_ICICI_22Aug2024_yyuspp.png?tr=w-1024');
+    background-size: cover;
+}
+.box2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724822948/Croma%20Assets/CMS/LP%20Page%20Banners/2024/More%20For%20Your%20Money/August/29%20to%2031st%20August/Federal/PNGS/HP_2Split_MFYMP_Fedrel_27Aug2024_qufqmb.png?tr=w-1024');
+    background-size: cover;
+}
+.fav{
+    display: grid;
+    display: flex;
+    grid-template-columns: 5fr;
+    height: auto;
+    width:auto;
+    padding-left: 85px;
+}
+.box3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724250306/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Our%20new%20Favourite/Aug/Monsoon/HP_SingleSplit_Monsoon__9Aug24_jromhh.png?tr=w-1024');
+    background-size: cover;
+}
+.hot{
+        display: grid;
+        display: flex;
+        gap: 35px;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        height: 150px;
+        width: 90%;
+        padding-left: 85px;
+}
+.b{
+    border: 2px ;
+    height: 350px;
+    width: 50%;
+    border-radius: 10px;
+}
+.b1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080322/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_New-at-Croma_gasstove_31Aug2024_qndxyh.jpg?tr=w-1024');
+    background-size: cover;
+}
+.b2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725019388/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Whats%20Hot/Aug/31082024/Desktop/HP_New-at-Croma_Redmi_31Aug2024_vz45pv.jpg?tr=w-1024');
+    background-size: cover;
+}
+.b3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080322/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_New-at-Croma_BTspkr_31Aug2024_ewk6kt.jpg?tr=w-1024');
+    background-size: cover;
+}
+.b4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080322/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_New-at-Croma_ac_31Aug2024_ovcf2k.jpg?tr=w-1024');
+    background-size: cover;
+}
+.img2{
+    padding : 100px;
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080324/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_Rotating_GoPro_31Aug2024_teekwd.jpg');
+    background-size: cover;
+    height: 550px;
+}
+.deals{
+    display: grid;
+    display: flex;
+    gap: 35px;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height: 150px;
+    width: 90%;
+    padding-left: 85px;
+}
+.b5{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725019828/Croma%20Assets/CMS/LP%20Page%20Banners/2024/DOTD/Aug/31082024/Desktop/HP_DOTD_31Aug2024_bx2l2z.jpg?tr=w-1024');
+    background-size: cover;
+}
+.b6{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080322/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_DOTD_TV_31Aug2024_b1qmbq.jpg?tr=w-1024');
+    background-size: cover;
+}
+.b7{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080322/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_DOTD_macbook_31Aug2024_ug4amf.jpg?tr=w-1024');
+    background-size: cover;
+}
+.b8{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725080321/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/31082024/HP_DOTD_keyboards_31Aug2024_mtawlw.jpg?tr=w-1024');
+    background-size: cover;
+}
+.brand{
+    display: grid;
+    display: flex;
+    gap: 35px;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height: 150px;
+    width: 90%;
+    padding-left: 85px;
+}
+.br{
+    border: 2px solid white ;
+    height: 150px;
+    width: 50%;
+    border-radius: 10px;
+}
+.br1{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/f_auto,q_auto,d_Croma%20Assets:no-product-image.jpg/v1606234114/Croma%20Assets/CMS/1Apple_jpg9010266374174.jpg?tr=w-720');
+    background-size: cover;
+}
+.br2{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/f_auto,q_auto,d_Croma%20Assets:no-product-image.jpg/v1606234162/Croma%20Assets/CMS/BOSE_jpg9010266767390.jpg?tr=w-720');
+    background-size: cover;
+}
+.br3{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724408975/Croma%20Assets/CMS/LP%20Page%20Banners/2024/Sanity/HP/August/Untitled-1_j6rkin.png?tr=w-720');
+    background-size: cover;
+}
+.br4{
+    background-image: url('https://media-ik.croma.com/prod/https://media.croma.com/image/upload/f_auto,q_auto,d_Croma%20Assets:no-product-image.jpg/v1606234111/Croma%20Assets/CMS/DELL_jpg9010279350302.jpg?tr=w-720');
+    background-size: cover;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
